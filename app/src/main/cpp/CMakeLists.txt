@@ -11,7 +11,7 @@ cmake_minimum_required(VERSION 3.22.1)
 # build script scope).
 project("androidCrossNDK")
 
-set(ROOT_DIR "${CMAKE_SOURCE_DIR}/../../../../../..")
+set(ROOT_DIR "${CMAKE_SOURCE_DIR}/../../../../../../../crossTemplateLib")
 
 
 file(GLOB sources
